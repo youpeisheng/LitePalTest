@@ -1,6 +1,9 @@
 package com.example.litepaltest;
+
+import org.litepal.crud.DataSupport;
+
 //数据库表内容
-public class Book {
+public class Book extends DataSupport {
     private String press;
     private int id;
     private String author;
